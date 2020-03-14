@@ -44,7 +44,7 @@ void lecture(FILE *f, grid_ptr dosun_grille){
         // Mis a jour des cases
         dosun_grille->grille[x][y].ligne = x;
         dosun_grille->grille[x][y].colonne = y;
-        dosun_grille->grille[x][y].case_type = C_NOIRE;
+        dosun_grille->grille[x][y].case_type = VIDE;
         dosun_grille->grille[x][y].groupe = group_count;
     }
 }
