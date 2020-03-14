@@ -1,0 +1,30 @@
+4
+a=gauche+haut
+b=droite+haut
+c=haut
+d=bas
+e=bas+droite
+f=bas+gauche
+g=gauche+droite+haut
+z=haut+bas+gauche+droite
+
+-1=case noire
+0=vide
+1=ballon blanc
+2=bille noire
+
+
+haut et gauche/haut/haut et gauche/haut et droite
+
+
+4 - taille de la grille
+2 - nb caree noire
+1 1
+3 3
+5 - nb groupe
+0 0 0 1
+0 2 0 3 1 2 2 2
+1 0 2 0 3 0 
+2 1 3 1 3 2
+1 3 2 3 
+
