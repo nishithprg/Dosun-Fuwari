@@ -9,5 +9,5 @@ n - La dimension de la grille</br>
 C - Nombre de case noir</br>
 x_C y_C | Les coordonnees x et y de la Cieme case noir avec un couple de coordonnees par ligne</br>
 F - Nombre de groupe en total</br>
-x1 y1 x2 y2 ... x_n y_n | Les coordonnes x et y des cases appartenant au meme groupe</br>
+x1 y1 z1 x2 y2 z2... x_n y_n z_n | Les coordonnes x et y des cases avec z la valeur du contenu des cases appartenant au meme groupe</br>
 Un ensemble de couple de cases du meme groupe par ligne</br> 

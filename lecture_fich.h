@@ -4,8 +4,9 @@
 // Initialisation de la grille, exclus attribution de groupe
 void creer_grille(grid_ptr dosun_grille, int grid_dim);
 
-// Lecture du fichier format grille et mis a jour de la grille
+type_case init_case(int val);
 
-void lecture(FILE *f,grid_ptr dosun_grille);
+// Lecture du fichier format grille et mis a jour de la grille
+void lecture(FILE *f,grid_ptr dosun_grille, grid_sup* groupes, grid_sup* W_ball, grid_sup* B_ball);
 
 #endif
